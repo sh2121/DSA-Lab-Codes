@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int linearSearch(int arr[], int n, int element) {
     for (int i = 0; i < n; i++) {
         if (arr[i] == element) {
@@ -22,7 +21,7 @@ int main() {
     }
 
     int element;
-    printf("\nEnter the element to search: ");
+    printf("\nEnter the element to search:");
     scanf("%d", &element);
 
     int result = linearSearch(arr, n, element);
